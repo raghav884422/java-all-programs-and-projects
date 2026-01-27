@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "30 8 * * *"   # 2:00 PM IST
   workflow_dispatch:
+permissions:
+  contents: write
 
 
 jobs:
