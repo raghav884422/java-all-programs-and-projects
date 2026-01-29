@@ -32,8 +32,9 @@ jobs:
           mkdir -p uploaded
           mv "folders/$FOLDER" "uploaded/$FOLDER"
 
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "raghav884422"
+          git config user.email "yashumishra4422@gmail.com"
+
 
           git add .
           git commit -m "Daily upload: $FOLDER"
